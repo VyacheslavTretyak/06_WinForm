@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD7D568C-9E94-47C8-BFDA-20A5703CC18D}</ProjectGuid>
+    <ProjectGuid>{3D6455F2-685D-420E-A9F3-559DF9E44A80}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AnalogClock</RootNamespace>
-    <AssemblyName>AnalogClock</AssemblyName>
+    <RootNamespace>ChessDesk</RootNamespace>
+    <AssemblyName>ChessDesk</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,18 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnalogClockForm.cs">
+    <Compile Include="ChessDesk.cs" />
+    <Compile Include="ChessDeskForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnalogClockForm.Designer.cs">
-      <DependentUpon>AnalogClockForm.cs</DependentUpon>
+    <Compile Include="ChessDeskForm.Designer.cs">
+      <DependentUpon>ChessDeskForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clock.cs" />
+    <Compile Include="ChessFigure.cs" />
     <Compile Include="Palitra.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AnalogClockForm.resx">
-      <DependentUpon>AnalogClockForm.cs</DependentUpon>
+    <EmbeddedResource Include="ChessDeskForm.resx">
+      <DependentUpon>ChessDeskForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +81,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bishopB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kingB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knightB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pawnB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queenB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rookB.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

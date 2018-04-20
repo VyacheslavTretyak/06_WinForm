@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AnalogClock
+namespace ChessDesk
 {
 	static class Program
 	{
@@ -16,7 +16,7 @@ namespace AnalogClock
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new AnalogClockForm());
+			Application.Run(new ChessDeskForm());
 		}
 	}
 }

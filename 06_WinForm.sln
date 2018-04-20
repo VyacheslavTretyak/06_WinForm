@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalogClock", "AnalogClock\AnalogClock.csproj", "{CD7D568C-9E94-47C8-BFDA-20A5703CC18D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessDesk", "ChessDesk\ChessDesk.csproj", "{3D6455F2-685D-420E-A9F3-559DF9E44A80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CD7D568C-9E94-47C8-BFDA-20A5703CC18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD7D568C-9E94-47C8-BFDA-20A5703CC18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD7D568C-9E94-47C8-BFDA-20A5703CC18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6455F2-685D-420E-A9F3-559DF9E44A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6455F2-685D-420E-A9F3-559DF9E44A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6455F2-685D-420E-A9F3-559DF9E44A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6455F2-685D-420E-A9F3-559DF9E44A80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
